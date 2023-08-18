@@ -89,8 +89,7 @@ class _SelecteventState extends State<Selectevent> {
     dbHelper = DBHelper();
     if(widget.event==null){
       setDateTimeNow();
-      
-      
+      print("hello");
     }
     else{
 
